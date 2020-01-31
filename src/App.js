@@ -1,5 +1,6 @@
 import React from 'react';
 import Product from './component/Product';
+import ProductList from './component/ProductList';
 import Details from './component/Details';
 import './App.css';
 import {
@@ -15,7 +16,7 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/">
-            <Product />
+            <ProductList />
           </Route>
           <Route path="/about">
             <Details />

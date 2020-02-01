@@ -16,7 +16,7 @@ export default class Information extends React.Component {
         return (
             <Row>
                 <p>
-                    <i>Les produits ci-dessus ont été sélectionnés pour leur capacité à protéger contre la contamination au <strong>Coronavirus</strong> mais aussi d'autres maladies courantes comme la Grippe.</i>
+                    <i>Les produits ci-dessus sont fabriqués en France et ont été sélectionnés pour leur capacité à protéger contre la contamination au <strong>Coronavirus</strong> mais aussi d'autres maladies courantes comme la Grippe.</i>
                 </p>
 
             </Row>

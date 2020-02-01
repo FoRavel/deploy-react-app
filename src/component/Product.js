@@ -10,11 +10,10 @@ export default class Product extends React.Component {
     this.textUrl =this.props.text;
     this.pictureUrl = this.props.picture;
     this.pageUrl = this.props.url;
-  }
+    this.detailsUrl = this.props.detailsUrl;
+    this.type = this.props.type;
+   }
 
-  handleClick = (e) => {
-    e.preventDefault();
-  }
 
 
   render() {
@@ -25,9 +24,10 @@ export default class Product extends React.Component {
             <div className="center-align">
               <Card
                 actions={[
-                  <a key="1" href="#">Acheter</a>,
-                  <a key="2" href="#" onClick>En savoir plus</a>
+                  <a key="1" href={this.pageUrl}>Acheter</a>,
+                  <a key="2" target="_blank" href={this.detailsUrl} onClick>Détails</a>
                 ]}
+                title={this.type}
               >
                 <Row>
                   <a href={this.pageUrl}>

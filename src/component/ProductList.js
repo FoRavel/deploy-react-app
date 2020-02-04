@@ -1,6 +1,7 @@
 import React from "react";
 import products from "../Helpers/ProductsData.js";
 import Product from "../component/Product.js";
+import SocialShare from "../component/SocialShare.js";
 import Information from "../component/Informations.js";
 import "./Product.css";
 import { Dropdown, Button, Col, Row, Card } from 'react-materialize';

@@ -2,6 +2,7 @@ import React from 'react';
 import Product from './component/Product';
 import ProductList from './component/ProductList';
 import Details from './component/Details';
+import SocialShare from './component/SocialShare';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -13,6 +14,7 @@ import {
 function App() {
   return (
     <div className="container">
+      <SocialShare/>
       <Router>
         <Switch>
           <Route exact path="/">

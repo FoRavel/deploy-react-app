@@ -1,7 +1,8 @@
 import axios from 'axios'
 
+const url = 'http://localhost:8000/api' || 'https://thawing-mountain-92047.herokuapp.com/api'
 const api = axios.create({
-    baseURL: 'http://localhost:8000/api' || 'https://thawing-mountain-92047.herokuapp.com/api',
+    baseURL: url,
 })
 
 export const insertProduct = payload => api.post(`/product`, payload)

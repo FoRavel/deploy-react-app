@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const url = 'https://thawing-mountain-92047.herokuapp.com/api'||'http://localhost:8000/api' 
+const url = 'https://thawing-mountain-92047.herokuapp.com/api'
 const api = axios.create({
     baseURL: url,
 })

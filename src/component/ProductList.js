@@ -30,7 +30,6 @@ class ProductList extends React.Component {
 
 
     render() {
-
         return (
             <div>
                 <h1>Protégeons-nous contre l'épidémie du Coronavirus</h1>

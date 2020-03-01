@@ -5,6 +5,7 @@ import Details from './component/Details';
 import SocialShare from './component/SocialShare';
 import { ProductInsert, ProductUpdate } from './pages'
 import './App.css';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -24,7 +25,7 @@ function App() {
             </Suspense>
           </Route>
           <Route path="/about">
-            <Details />s
+            <Details />
           </Route>
           <Route path="/product/create">
             <ProductInsert />
